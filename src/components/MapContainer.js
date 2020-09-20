@@ -13,8 +13,8 @@ export class MapContainer extends React.Component {
     }
 
     const displayMarkers = () => {
-      return this.props.driverData.map((driver, index) => {
-        return <Marker key={index} id={index} position={{
+      return this.props.driverData.map((driver) => {
+        return <Marker key={driver.driver_id} id={driver.driver_id} position={{
           lat: driver.latitude,
           lng: driver.longitude
         }}
@@ -31,7 +31,7 @@ export class MapContainer extends React.Component {
           initialCenter={{ lat: 51.5049375, lng: -0.0964509 }}
         >
           {/* <Marker position={{ lat: 51.5049375, lng: -0.0964509 }} /> */}
-          {this.displayMarkers()}
+          {() => displayMarkers()}
         </Map>
       </div>
     )
