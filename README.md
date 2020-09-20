@@ -14,8 +14,8 @@ Features
 
 Instructions
 
-Open terminal and do a git clone git clone git@github.com:hiroshiuk1991/splyt-challenge.git
-cd splyt-challenge
-Run npm i to install dependencies
-To start npm start will open browser on http://localhost:3000
-Scroll through the slider to see.
+1. Open terminal and do a git clone git clone git@github.com:hiroshiuk1991/splyt-challenge.git
+2. cd splyt-challenge
+3. Run npm i to install dependencies
+4. To start npm start will open browser on http://localhost:3000
+5. Scroll through the slider to see.
